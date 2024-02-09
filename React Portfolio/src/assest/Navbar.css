@@ -1,0 +1,18 @@
+.navbar-logo{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+}
+
+.nav-links{
+    font-size: 16px;
+}
+
+.nav-links:hover{
+    color: #00f2ff;
+}
+
+@media only screen and (max-width: 639px){
+    .navbar-logo{
+        font-size: 23px;
+    }
+}

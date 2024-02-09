@@ -1,0 +1,69 @@
+.home-container {
+    height: 100vh;
+}
+
+.my-Image {
+    width: 100%;
+    border-radius: 150vh;
+    border: 10px solid #00f2ff;
+}
+
+.details-container {
+    width: 100%;
+}
+
+.download-cv-btn{
+    color: white;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+}
+
+.download-cv-btn:hover{
+    background-color: #00f2ff;
+    border-color: #00f2ff;
+    color: #1e252d;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+    .details-container {
+        margin-top: 6rem;
+    }
+
+    .my-Image{
+        width: 90%;
+    }
+
+    .home-container {
+        height: 150vh;
+    }
+}
+
+/* FOR CONTACT PAGE */
+
+.LinkedIn-icon{
+    background-color: #0e76a8;
+}
+
+.Github-icon{
+    background-color: #333;
+}
+
+.Email-icon{
+    background-color: #ea4335;
+}
+
+.Contact-icons{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 22%;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.Contact-icons:hover{
+    background-color: black;
+}
